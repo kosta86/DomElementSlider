@@ -1,0 +1,19 @@
+.slide-from-left {
+    /* You can change duration of the slide-from-left effect here */
+    animation: slide-in 1s forwards; 
+}
+@keyframes slide-in {
+    from {  transform: translateX(-200px);
+            opacity: 0;
+        }
+}
+
+.slide-from-right {
+    /* You can change duration of the slide-from-right effect here */
+    animation: slide-out 1s forwards;
+}
+@keyframes slide-out {
+    from {  transform: translateX(+200px);
+            opacity: 0;
+        }
+}
