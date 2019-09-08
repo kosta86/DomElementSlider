@@ -1,0 +1,15 @@
+{
+    "name": "domelementslider",
+    "version": "1.0.2",
+    "description": "DomElementSlider is used for making any of your HTML elements get a nice slide in effect on page load.",
+    "license": "MIT",
+    "repository": "kosta86/DomElementSlider",
+    "main": "DomElementSlider.js",
+    "keywords": [
+        "slide in",
+        "slide-in",
+        "slide in effect",
+        "slide-in effect",
+        "dom element slider"
+    ]
+}

@@ -8,13 +8,30 @@ DomElementSlider is used for making any of your HTML elements get a nice slide i
 
 ### Installing
 
-#### 1. Extract the <DomElementSlider> folder to your projects root folder.
+
+#### Extracting to root folder:
+
+##### 1. Extract the <DomElementSlider> folder to your projects root folder.
 ![DomElementSlider Demo](demo/demo2.gif)
-#### 2. Include DomElementSlider.css file to your page.
+##### 2. Include DomElementSlider.css file to your page between openeing and closing <header> tags <link rel="stylesheet" href="./DomElementSlider.css"> .
 ![DomElementSlider Demo](demo/demo3.gif)
-#### 3. Include DomElementSlider.js file to your page.
+##### 3. Include DomElementSlider.js file to your page before closing </body> tag <script src="./DomElementSlider/DomElementSlider.js"></sript> .
 ![DomElementSlider Demo](demo/demo4.gif)
-#### 4. Go to .DomElementSlider.js and replace the '?' with:
+
+
+#### Npm package manager installation
+##### 1. Open terminal or command prompt.
+##### 2. Navigate to your projects root folder.
+##### 3. Type: npm install -g 
+##### 4. Type: npm install domelementslider 
+##### 5. Include DomElementSlider.css file to your page between openeing and closing <header> tags <link rel="stylesheet" href="./node_modules/domelementslider/DomElementSlider/DomElementSlider.css"> . 
+##### 6. Include DomElementSlider.js file to your page before closing </body> tag. <script src="./node_modules/domelementslider/DomElementSlider/DomElementSlider.js"></script> . 
+
+
+
+### Usage
+
+#### 4. Go to .DomElementSlider.js file and replace the '?' with:
 ##### 1. HTML element name(ex. 'button')
 ##### 2. ClassName of the element you want to slide in(ex. '.some-class')
 ##### 3. Id of the element you want to slide in(ex. '#some-id')
@@ -28,7 +45,7 @@ CSS
 
 ## Versioning
 
-V1.0.0 
+V1.0.2
 
 ## Authors
 
